@@ -11,7 +11,7 @@ class Finder
   end
 
   def all_contributors
-    @emails.split("\n").uniq.sort
+    @emails.split("\n").sort
   end
 end
 
